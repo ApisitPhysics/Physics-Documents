@@ -335,7 +335,7 @@ class Galileo(Scene):
 
         cc18 = MultiText(
             Text('ฟังดูง่ายใช่ไหมครับเรื่องทฤษฎีสัมพัทธภาพ', font="TH Sarabun New", t2c={'ความเร็วสัมพัทธ์':BLUE}),
-            Text('แต่ของจริงมันอยู่ต่อหากนี้ต่างหาก', font='TH Sarabun New', color=RED_D, font_size=75),
+            Text('แต่ของจริงมันอยู่ต่อจากนี้ต่างหาก', font='TH Sarabun New', color=RED_D, font_size=75),
             direction=DOWN
         )
         self.play(FadeOut(galaxy_svg), Transform(cc17, cc18))
