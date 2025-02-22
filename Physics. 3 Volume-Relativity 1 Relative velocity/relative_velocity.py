@@ -1,6 +1,6 @@
 from manimae import *
 
-class Galileo(Scene):
+class RelativeVelocity(Scene):
     def construct(self):
         galileo_png = ImageMobject('galieo.png').scale(0.5).move_to((-4, 0, 0))
         g_Rel_head = Text('Galilean Relativity', font_size=50, color=GREEN).move_to((3, 3, 0))
